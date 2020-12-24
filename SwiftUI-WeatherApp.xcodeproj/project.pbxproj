@@ -13,6 +13,7 @@
 		6DC2A5EB2591062500381285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC2A5EA2591062500381285 /* Assets.xcassets */; };
 		6DC2A5EE2591062500381285 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC2A5ED2591062500381285 /* Preview Assets.xcassets */; };
 		6DC2A5F12591062500381285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC2A5EF2591062500381285 /* LaunchScreen.storyboard */; };
+		6DC2A5F92594907600381285 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC2A5F82594907600381285 /* WeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6DC2A5ED2591062500381285 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6DC2A5F02591062500381285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DC2A5F22591062500381285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC2A5F82594907600381285 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6DC2A5EF2591062500381285 /* LaunchScreen.storyboard */,
 				6DC2A5F22591062500381285 /* Info.plist */,
 				6DC2A5EC2591062500381285 /* Preview Content */,
+				6DC2A5F82594907600381285 /* WeatherButton.swift */,
 			);
 			path = "SwiftUI-WeatherApp";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				6DC2A5E52591062100381285 /* AppDelegate.swift in Sources */,
 				6DC2A5E72591062100381285 /* SceneDelegate.swift in Sources */,
+				6DC2A5F92594907600381285 /* WeatherButton.swift in Sources */,
 				6DC2A5E92591062100381285 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
